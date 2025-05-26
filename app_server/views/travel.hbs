@@ -1,3 +1,15 @@
 <h1>Travel</h1>
 <p>Find travel tips and destination guides.</p>
+
+<ul>
+  {{#each trips}}
+    <li>
+      <h2>{{destination}}</h2>
+      <p>{{description}}</p>
+      <p><strong>Price:</strong> ${{price}}</p>
+      <p><strong>Duration:</strong> {{duration}}</p>
+    </li>
+  {{/each}}
+</ul>
+
 <!-- Add more content as needed, using HBS if dynamic data is required -->

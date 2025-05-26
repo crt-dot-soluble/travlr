@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "destination": "Paris, France",
+    "description": "Experience the romance and culture of Paris with guided tours, fine dining, and world-famous landmarks.",
+    "price": 1999,
+    "duration": "7 days"
+  },
+  {
+    "id": 2,
+    "destination": "Kyoto, Japan",
+    "description": "Explore ancient temples, cherry blossoms, and traditional cuisine in beautiful Kyoto.",
+    "price": 2499,
+    "duration": "10 days"
+  },
+  {
+    "id": 3,
+    "destination": "Sydney, Australia",
+    "description": "Enjoy the sun, surf, and sights of Sydney, including the Opera House and Bondi Beach.",
+    "price": 2299,
+    "duration": "8 days"
+  }
+]

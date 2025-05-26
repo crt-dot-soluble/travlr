@@ -1,3 +1,6 @@
+const path = require('path');
+const trips = require(path.join(__dirname, '../models/trips.json'));
+
 module.exports = {
     index: (req, res) => {
         res.render('index', { title: 'Home' });
@@ -15,7 +18,7 @@ module.exports = {
         res.render('news', { title: 'News' });
     },
     travel: (req, res) => {
-        res.render('travel', { title: 'Travel' });
+        res.render('travel', { title: 'Travel', trips });
     },
     contact: (req, res) => {
         res.render('contact', { title: 'Contact' });
